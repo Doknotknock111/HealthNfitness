@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/red"
+    tools:context=".UserFragment">
+
+
+
+
+    <ImageView
+        android:id="@+id/glassImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/glassImage"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="126dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/counterText"
+        android:layout_marginEnd="-49dp"
+        android:layout_toStartOf="@id/glassImage"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="155dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/counterText"
+        android:layout_marginStart="-78dp"
+        android:layout_toEndOf="@id/glassImage"
+        android:text="REMOVE" />
+
+    <EditText
+        android:id="@+id/userInputEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/removeButton"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter water intake in liters"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

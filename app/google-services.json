@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "730959028183",
+    "project_id": "healthfitness-b60c1",
+    "storage_bucket": "healthfitness-b60c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730959028183:android:de1099fe70591f7e9c7592",
+        "android_client_info": {
+          "package_name": "com.example.healthfitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIQIcHelxFDLofwAoXZgQnCPHtZUlLXno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

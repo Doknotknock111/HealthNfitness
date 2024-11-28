@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/red"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:src="@drawable/img" />
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height (cm)"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:id="@+id/editTextBMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="BMI"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:id="@+id/editTextCurrentWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current Weight"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/editTextTargetWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Target Weight"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date:"
+            android:textColor="@color/white"/>
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="237dp"
+            android:layout_height="98dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:yearListSelectorColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/buttonRetrieve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retrieve" />
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSaveToSDCard"
+            android:layout_width="130dp"
+            android:layout_height="37dp"
+            android:text="Save to SD Card" />
+
+        <TextView
+            android:id="@+id/textViewUserData"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:gravity="start"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
